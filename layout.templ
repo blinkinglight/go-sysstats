@@ -1,0 +1,38 @@
+package main
+
+import "fmt"
+
+type Stats struct {
+	MemTotal   string
+	MemPercent float64
+	MemUsed    string
+	MemFree    string
+	SwapTotal  string
+	CpuUser        int
+	CpuSystem      int
+	CpuIdle        int
+}
+
+templ Main(stats Stats) {
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Sys Stats</title>
+            <script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@v1.0.0-beta.9/bundles/datastar.js"></script>
+		</head>
+		<body data-on-load="@get('/live/stats')"></body>
+        @Stat(stats)
+	</html>
+}
+
+templ Stat(stats Stats) {
+	<div id="stats">
+    <p><strong>MemFree</strong> { fmt.Sprintf("%s", stats.MemFree) }</p>
+    <p><strong>MemUsed</strong> { fmt.Sprintf("%s",stats.MemUsed) }</p>
+    <p><strong>MemTotal</strong> { fmt.Sprintf("%s",stats.MemTotal) }</p>
+    <p><strong>MemPercent</strong> { fmt.Sprintf("%f",stats.MemPercent) }</p>
+    <p><strong>CPU system</strong> { fmt.Sprintf("%d",stats.CpuSystem) }</p>
+    <p><strong>CPU user</strong> { fmt.Sprintf("%d",stats.CpuUser) }</p>
+    <p><strong>CPU idle</strong> { fmt.Sprintf("%d",stats.CpuIdle) }</p>
+    </div>
+}

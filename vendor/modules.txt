@@ -1,0 +1,87 @@
+# github.com/a-h/templ v0.3.856
+## explicit; go 1.23.0
+github.com/a-h/templ
+github.com/a-h/templ/runtime
+github.com/a-h/templ/safehtml
+# github.com/delaneyj/gostar v0.8.0
+## explicit; go 1.22.1
+github.com/delaneyj/gostar/elements
+# github.com/ebitengine/purego v0.8.2
+## explicit; go 1.18
+github.com/ebitengine/purego
+github.com/ebitengine/purego/internal/cgo
+github.com/ebitengine/purego/internal/fakecgo
+github.com/ebitengine/purego/internal/strings
+# github.com/go-chi/chi/v5 v5.2.1
+## explicit; go 1.20
+github.com/go-chi/chi/v5
+# github.com/go-ole/go-ole v1.2.6
+## explicit; go 1.12
+github.com/go-ole/go-ole
+github.com/go-ole/go-ole/oleutil
+# github.com/goccy/go-json v0.10.4
+## explicit; go 1.19
+github.com/goccy/go-json
+github.com/goccy/go-json/internal/decoder
+github.com/goccy/go-json/internal/encoder
+github.com/goccy/go-json/internal/encoder/vm
+github.com/goccy/go-json/internal/encoder/vm_color
+github.com/goccy/go-json/internal/encoder/vm_color_indent
+github.com/goccy/go-json/internal/encoder/vm_indent
+github.com/goccy/go-json/internal/errors
+github.com/goccy/go-json/internal/runtime
+# github.com/igrmk/treemap/v2 v2.0.1
+## explicit; go 1.18
+github.com/igrmk/treemap/v2
+# github.com/inhies/go-bytesize v0.0.0-20220417184213-4913239db9cf
+## explicit; go 1.12
+github.com/inhies/go-bytesize
+# github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0
+## explicit; go 1.16
+github.com/lufia/plan9stats
+# github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c
+## explicit; go 1.14
+github.com/power-devops/perfstat
+# github.com/samber/lo v1.47.0
+## explicit; go 1.18
+github.com/samber/lo
+github.com/samber/lo/internal/constraints
+github.com/samber/lo/internal/rand
+# github.com/shirou/gopsutil/v4 v4.25.2
+## explicit; go 1.18
+github.com/shirou/gopsutil/v4/common
+github.com/shirou/gopsutil/v4/cpu
+github.com/shirou/gopsutil/v4/internal/common
+github.com/shirou/gopsutil/v4/mem
+# github.com/starfederation/datastar v1.0.0-beta.9
+## explicit; go 1.23.3
+github.com/starfederation/datastar/sdk/go
+# github.com/tklauser/go-sysconf v0.3.12
+## explicit; go 1.13
+github.com/tklauser/go-sysconf
+# github.com/tklauser/numcpus v0.6.1
+## explicit; go 1.13
+github.com/tklauser/numcpus
+# github.com/valyala/bytebufferpool v1.0.0
+## explicit
+github.com/valyala/bytebufferpool
+# github.com/yusufpapurcu/wmi v1.2.4
+## explicit; go 1.16
+github.com/yusufpapurcu/wmi
+# golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8
+## explicit; go 1.22.0
+golang.org/x/exp/constraints
+# golang.org/x/sys v0.31.0
+## explicit; go 1.23.0
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.21.0
+## explicit; go 1.18
+golang.org/x/text/cases
+golang.org/x/text/internal
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
+golang.org/x/text/language
+golang.org/x/text/transform
+golang.org/x/text/unicode/norm
